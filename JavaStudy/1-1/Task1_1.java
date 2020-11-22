@@ -8,7 +8,7 @@ public class Task1_1 {
     String hogeString="テスト";
 
     // ③下記の処理について、何をしているのかコメントを記入してください
-      // [ここへ記述]double型の　hogeDouble という名前の変数名を宣言し、値[0.2]で初期化
+      // [ここへ記述]double型の hogeDouble という名前の変数名を宣言し、値[0.2]で初期化
       double hogeDouble = 0.2;
 
     // ④変数 hogeInt を値「100」で上書き
