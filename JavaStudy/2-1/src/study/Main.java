@@ -17,7 +17,7 @@ public class Main {
     	String firstName,lastName;
     	firstName = "koushirou";
     	lastName = "kume";
-   
+
 
         //getName関数の呼び出しと出力
         System.out.println(getName(firstName, lastName));
@@ -26,15 +26,10 @@ public class Main {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         //③ arr 配列をループさせ、isOdd関数を使って配列の要素が奇数かどうかの判定を行いなさい。
-        //   要素が奇数の場合には「nは奇数です。」と出力されます。
-        for (int n=0; n<10; n++) {
-        	if (n%2!=0) {
-        		System.out.println(n+"は奇数です");
-        	}
+        //   要素が奇数の場合には「nは奇数です。」と出力されます.
+        for (int n=0; n<arr.length;n++) {
+        	isOdd(n);
         }
-
-
-
     }
 
     //② 関数を定義しなさい。
