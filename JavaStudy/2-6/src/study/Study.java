@@ -29,7 +29,7 @@ public class Study {
         // 問② 「(Calendar.MONTH) + 数値」の処理は、想定していない値となる可能性があります。
         // その理由をコメントへ記述してください。
         // [ここへ記述]1月の実値の値が０のため、12月が実値11である。そのため−1の値を保持しているため＋1などで調整しているが
-        //繰り上げ繰り下げの場合は月の値に＋1するため13月、14月などが表示されるため
+        //繰り上げ繰り下げの場合(来月、先月を取得する時に＋2や−１する時の繰り上げ、繰り下げのこと)は月の値に＋1するため13月、14月などが表示されるため
         System.out.println(calendar.get(Calendar.YEAR));
         System.out.println(calendar.get(Calendar.MONTH) + 1);
         System.out.println(calendar.get(Calendar.DATE));
