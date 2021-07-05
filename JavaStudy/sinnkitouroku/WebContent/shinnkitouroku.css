@@ -1,0 +1,19 @@
+@charset "UTF-8";
+#post_contents ul li { list-style-type:none; background-image:none; padding-left:0; }
+
+.wrapper{
+  text-align: center;
+  border: 1px solid black;
+  height: 700px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.body{
+  margin-top: 250px;
+}
+
+.ul{
+	list-style-type:none;
+}
